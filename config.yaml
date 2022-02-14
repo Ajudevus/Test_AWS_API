@@ -1,0 +1,14 @@
+name: Configuration check
+on:
+  repository_dispath:
+    types:
+      - configuration-check
+jobs:
+  check:
+    name: Run check
+    runs-on: ubuntu-latest
+    steps:
+      - name: just echo 
+        run: echo yo bruh!!
+      
+    
