@@ -1,8 +1,7 @@
 name: Configuration check
 on:
   repository_dispatch:
-    types:
-      - configuration-check
+    types: [configuration-check]
 jobs:
   check:
     name: Run check
